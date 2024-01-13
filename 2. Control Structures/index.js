@@ -51,7 +51,7 @@ while(n1<=n){
 }
 console.log(num)
 const list = ["apple", "banana", "cherry", "date", "elderberry"];
-// TODO 2.6 Use a while loop to display all the values in the list
+// DONE 2.6 Use a while loop to display all the values in the list
 // Your code here
 let n2=0
 let list1=""
@@ -63,14 +63,14 @@ console.log(list1)
 // Checkpoint 2.3 How would you simulate a do-while loop in JavaScript
 // Answer:do{statement}while(condition)
 
-// TODO 2.7 Use a for of loop to display all the values in the list
+// DONE 2.7 Use a for of loop to display all the values in the list
 // Your code here
 list3=""
 for(let x of list){
     list3+=x+" "
 }
 console.log(list3)
-// TODO 2.8 Use a for in loop to display all the values in the list
+// DONE 2.8 Use a for in loop to display all the values in the list
 // Your code here
 list4=""
 for(const y in list){
@@ -78,7 +78,7 @@ for(const y in list){
 }
 console.log(list4)
 
-// TODO 2.9 Use the for each method of the list to display all its values 
+// DONE 2.9 Use the for each method of the list to display all its values 
 // Your code here
 list.forEach(display);
 function display(index,item){
@@ -87,7 +87,7 @@ function display(index,item){
 // Checkpoint 2.2 When should you use for of, for in, or .forEach loops? Try researching the answer
 // Answer: for of should be used in getting the values, for in should be used for getting the indeces, forEach should be used when getting both the indeces and values
 
-// TODO 2.10 Use the try and catch block to catch division by zero errors in the code below.
+// DONE 2.10 Use the try and catch block to catch division by zero errors in the code below.
 // In the finally block, simulate cleaning up resources by displaying "cleaning up resources"
 const numerator = Math.floor((Math.random() * 100) + 1);
 const denominator = Math.floor((Math.random() * 5)); // feel free to mock this value for testing
