@@ -105,4 +105,15 @@ finally{
     console.log("Cleaning up Resources")
 }
 
+<<<<<<< HEAD
+=======
+
+if(denominator === 0){
+    throw new Error("Division by zero error")
+} else {
+    console.log(numerator / denominator);
+}
+
+
+>>>>>>> e7ee04f757726f98af7cb7c8d850fbf08487528d
 
