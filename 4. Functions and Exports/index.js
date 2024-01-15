@@ -5,17 +5,24 @@
     - freeCodeCamp on Functions: https://www.freecodecamp.org/news/what-is-a-function-javascript-function-examples/
 */
 
-// Todo 4.1 Declare a function named 'greet' that takes one parameter 'name' and displays a greeting
+// DONE 4.1 Declare a function named 'greet' that takes one parameter 'name' and displays a greeting
 // Then, Call the 'greet' function with your name as the argument
 // Your code here
-
+function greet(name){
+    console.log("Hello "+name)
+}
+greet("EJ")
 // Checkpoint 4.1 What is the difference between a function declaration and a function expression?
 // Answer: 
 
 // Todo 4.2 Declare a function expression named 'calculateArea' that takes the length and width of a rectangle and returns its area
 // Then, Call the 'calculateArea' function with any length and width as arguments
 // Your code here
-
+function calculateArea(length,width){
+    area=length*width
+    console.log(area)
+}
+calculateArea(4,6)
 // Checkpoint 4.2 What is a callback function? Provide an example.
 // Answer: 
 

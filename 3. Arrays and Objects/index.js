@@ -29,7 +29,7 @@ console.log(sum/numbers.length)
 
 // DONE 3.3 Declare an object with information about IT114L (course code, name, units, number of students)
 // Your code here
-const course={
+const IT114L={
     courseCode:"IT114L",
     courseName:"Web Systems and Technologies Laboratory",
     units:1,
@@ -37,8 +37,8 @@ const course={
 }
 // DONE 3.4 Add professor name as one of the fields of the object. Display the value of professor name.
 // Your code here,
-course.professor="Job Lipat"
-console.log(course.professor)
+IT114L.professor="Job Lipat"
+console.log(IT114L.professor)
 // DONE 3.5 Declare an array of objects with information about the courses you are taking this term
 // Your code here
 const term=[
@@ -101,5 +101,5 @@ const numbersNew=[...numbers,num]
 console.log(numbersNew)
 // DONE 3.7 Going back to your IT114L object, extract the course code and units using the spread operator
 // Your code here
-const codeUnits=[course.courseCode,course.units]
-console.log(codeUnits)
+const {courseCode,units,...rest}=IT114L;
+console.log(courseCode,units)
