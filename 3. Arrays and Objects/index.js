@@ -103,3 +103,5 @@ console.log(numbersNew)
 // Your code here
 const {courseCode,units,...rest}=IT114L;
 console.log(courseCode,units)
+
+export{numbers};
